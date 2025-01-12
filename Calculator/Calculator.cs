@@ -55,6 +55,22 @@ namespace Calculator
                     num2 = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 / num2));
                     break;
+                case "5":
+                    Console.WriteLine("You have selected Square Root ");
+                    Console.WriteLine("Please enter the first number: ");
+                    num1 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine($"Your result: {num1}  = " + (Math.Sqrt(num1)));
+                    break;
+                case "6":
+                    Console.WriteLine("You have selected Power ");
+                    Console.WriteLine("Please enter the first number: ");
+                    num1 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Please enter the second number: ");
+                    num2 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine($"Your result: {num1} ^ {num2} = " + (Math.Pow(num1, num2)));
+                    break;
+                case "":
+                    Console.WriteLine("Invalid option");
             }
 
         }
