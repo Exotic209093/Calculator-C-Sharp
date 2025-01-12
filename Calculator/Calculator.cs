@@ -19,6 +19,8 @@ namespace Calculator
             Console.WriteLine("2. Subtract");
             Console.WriteLine("3. Multiply");
             Console.WriteLine("4. Divide");
+            Console.WriteLine("5. Square Root");
+            Console.WriteLine("6. Power");
             Console.Write("Your option? ");
             switch (Console.ReadLine())
             {
